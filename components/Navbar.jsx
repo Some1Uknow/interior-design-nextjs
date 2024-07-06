@@ -8,12 +8,6 @@ function NavItem({ text }) {
 function Navbar() {
   const navItems = ["Home", "Services", "Contact", "Support"];
 
-  useEffect(() => {
-    alert(
-      "Hi there\nFor the assignment I decided to rebrand ICRAVE's website.\nThe website is fully responsive and follows all the requirements\nI hope you like my work.\n-Raghav"
-    );
-  }, []);
-
   return (
     <header className="flex flex-wrap justify-between items-center font-semibold p-5 md:px-32">
       <img
